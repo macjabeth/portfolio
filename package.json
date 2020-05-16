@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "The portfolio site for Jonathan Picazo",
   "main": "index.tsx",
   "scripts": {
     "build:tailwind": "tailwindcss build src/styles/tailwind.css -o src/styles/tailwind.generated.css",
@@ -10,8 +10,10 @@
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "portfolio", "jonathan", "picazo"
+  ],
+  "author": "Jonathan Picazo <macbethjonathan@gmail.com> (https://jonathanpicazo.me/)",
   "license": "ISC",
   "dependencies": {
     "@tailwindcss/ui": "^0.3.0",
