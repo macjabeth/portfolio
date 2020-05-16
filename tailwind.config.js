@@ -1,11 +1,11 @@
 module.exports = {
-  purge: ['./src/**/*.js'],
+  purge: ['./src/**/*.tsx'],
   theme: {
     extend: {
       screens: {
         'xs': ''
       }
-    },
+    }
   },
   variants: {},
   plugins: [

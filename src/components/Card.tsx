@@ -1,7 +1,16 @@
 import classNames from 'classnames';
 import React from 'react';
 
-const Card = (props) => (
+interface ICardProps extends React.HTMLAttributes<any> {
+  /** Whether to give rounded top corners. */
+  roundTop?: boolean
+  /** Whether to give rounded bottom corners. */
+  roundBottom?: boolean
+  /** Whether to center the nested text. */
+  center?: boolean
+}
+
+const Card: React.FC<ICardProps> = (props) => (
   <div
     style={{ minWidth: 250 }}
     className={classNames('px-4 py-6 max-w-lg mx-auto', props.className, {

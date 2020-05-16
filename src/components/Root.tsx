@@ -4,9 +4,10 @@ import Card from './Card';
 import Header from './Header';
 import Link from './Link';
 import NavLink from './NavLink';
+import { IGithubUser } from '../types/github';
 
-const Root = () => {
-  const [repo, setRepo] = useState({});
+const Root: React.FC = () => {
+  const [repo, setRepo] = useState<IGithubUser | undefined>();
 
   useEffect(() => {
     fetch('https://api.github.com/users/macjabeth')

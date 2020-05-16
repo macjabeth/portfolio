@@ -1,7 +1,12 @@
 import classNames from 'classnames';
 import React from 'react';
 
-const NavLink = (props) => (
+interface INavLink extends React.LinkHTMLAttributes<any> {
+  /** Whether the section has yet to be implemented. */
+  disabled?: boolean
+}
+
+const NavLink: React.FC<INavLink> = (props) => (
   <a
     className={classNames('p-2 flex items-center', { 'opacity-25': props.disabled })}
     href={props.href || '#'}>
