@@ -122,7 +122,7 @@ const Root: React.FC = () => {
       </Card>
 
       {/* Projects */}
-      <div className="projects" />
+      <div id="projects" />
       <Card className="bg-cool-gray-300 mt-4" roundTop roundBottom center>
         <h2 className="font-extrabold uppercase opacity-50">Projects</h2>
         <hr className="my-4 border-cool-gray-500" />
