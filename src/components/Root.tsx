@@ -54,10 +54,13 @@ const Root: React.FC = () => {
       <Card className="bg-pink-300 mt-4" roundTop center>
         <h2 className="font-extrabold uppercase opacity-50">About</h2>
         <hr className="my-4 border-pink-500" />
-        <p>He is currently a Team Lead at <strong><Link
+        <p>He is currently a <strong>Team Lead</strong> at <Link
           href="https://lambdaschool.com/courses/full-stack-web-development"
-          className="border-pink-700">Lambda School</Link></strong> and believes
-          that you can achieve anything once you put your mind to it.</p>
+          className="border-pink-700">Lambda School</Link> and believes
+          that you can achieve anything once you put your mind to it. Watch him
+          host a special <Link href="https://youtu.be/TnAwK6LBFXk"
+                               className="border-pink-700">after-hours</Link> session
+          for his students!</p>
       </Card>
       <Card className="bg-pink-200" center>
         <p>His <strong>unique background</strong> in game design is what led him
@@ -172,7 +175,8 @@ const Root: React.FC = () => {
           href="https://hacktoberfest.digitalocean.com/"
           className="border-cool-gray-400">Hacktoberfest</Link> by adding a
           number of issues to encourage open-source collaboration on Showbunny.
-          He then contributed to other projects which won him a free teeshirt!</p>
+          He then contributed to other projects which won him a free teeshirt!
+        </p>
       </Card>
       <Card className="bg-cool-gray-50 flex justify-around" roundBottom>
         <Link href="https://showbunny.macjabeth.now.sh/"
