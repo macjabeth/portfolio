@@ -26,7 +26,7 @@ const Root: React.FC = () => {
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="https://medium.com/@macjabeth">Blog Posts</NavLink>
+          <NavLink href="https://blog.jonathanpicazo.me/">Blog Posts</NavLink>
           <NavLink href="mailto:macbethjonathan@gmail.com">Contact</NavLink>
         </nav>
       </Card>
