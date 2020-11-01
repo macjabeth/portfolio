@@ -54,23 +54,21 @@ const Root: React.FC = () => {
       <Card className="bg-pink-300 mt-4" roundTop center>
         <h2 className="font-extrabold uppercase opacity-50">About</h2>
         <hr className="my-4 border-pink-500" />
-        <p>He is currently a <strong>Team Lead</strong> at <Link
-          href="https://lambdaschool.com/courses/full-stack-web-development"
-          className="border-pink-700">Lambda School</Link> and believes
-          that you can achieve anything once you put your mind to it. Watch him
-          host a special <Link href="https://youtu.be/TnAwK6LBFXk"
-                               className="border-pink-700">after-hours</Link> session
-          for his students!</p>
+        <p>He is currently a <strong>Software Engineer</strong> at <Link
+          href="northwesternmutual.com"
+          className="border-pink-700">Northwestern Mutual</Link> and loves
+          working on a diverse team with innovative technologies. He also loves
+          passing his knowledge onto others - watch him host a special <Link href="https://youtu.be/TnAwK6LBFXk" className="border-pink-700">
+            after-hours</Link> session for his students at Lambda School!</p>
       </Card>
       <Card className="bg-pink-200" center>
         <p>His <strong>unique background</strong> in game design is what led him
           to pursue a career in software engineering and web development.</p>
       </Card>
       <Card className="bg-pink-100" roundBottom center>
-        <p>His favourite games were text-based. He learned the entire Lua
-          scripting language to become better at his craft. Check out his
-          favourite <strong><Link href="https://www.mudlet.org/"
-                                  className="border-pink-400">MUD client</Link></strong> which
+        <p>His favourite games were text-based. He studied the entire Lua
+          scripting manual to become better at his craft. Check out his
+          favourite <strong><Link href="https://www.mudlet.org/" className="border-pink-400">MUD client</Link></strong> which
           uses Lua as its scripting engine.
         </p>
       </Card>
@@ -104,6 +102,7 @@ const Root: React.FC = () => {
             <Badge>Apollo</Badge>
             <Badge>Gatsby</Badge>
             <Badge>Next.js</Badge>
+            <Badge>Remix</Badge>
             <Badge>Vue</Badge>
           </ul>
           <ul className="flex flex-col">
@@ -112,15 +111,14 @@ const Root: React.FC = () => {
             <Badge>Docker</Badge>
             <Badge>AWS</Badge>
             <Badge>Figma</Badge>
+            <Badge>Prisma</Badge>
           </ul>
         </div>
       </Card>
       <Card className="bg-orange-100" roundBottom center>
         <p>While he does love to work on his professional and creative skillset,
           like everyone else he has a few <strong>hobbies</strong>. He loves
-          movies, <span
-            className="inline-block transform rotate-180"
-            style={{ verticalAlign: 'text-top' }}>yoga</span>,
+          movies, <span className="inline-block transform rotate-180" style={{ verticalAlign: 'text-top' }}>yoga</span>,
           cooking, and playing with his puppers... Arf!</p>
       </Card>
 
@@ -131,9 +129,8 @@ const Root: React.FC = () => {
         <hr className="my-4 border-cool-gray-500" />
         <p>He has many projects both personal and professional, all of which he
           is proud of. If you want to see more than the projects he has listed
-          below, you can view his <Link href={repo?.html_url || '#'}
-                                        className="border-cool-gray-700">GitHub
-            profile</Link>.</p>
+          below, you can view his <Link href={repo?.html_url || '#'} className="border-cool-gray-700">GitHub profile</Link>.
+        </p>
       </Card>
 
       <Card className="bg-cool-gray-200 mt-4" roundTop center>
@@ -146,16 +143,13 @@ const Root: React.FC = () => {
           fostering a safe environment for them to work in.</p>
       </Card>
       <Card className="bg-cool-gray-50 flex justify-around" roundBottom>
-        <Link href="https://swaap.co/"
-              className="border-none text-sm flex items-center">
+        <Link href="https://swaap.co/" className="border-none text-sm flex items-center">
           <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
-            <path
-              d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
           </svg>
           <span>Live Site</span>
         </Link>
-        <Link href="https://github.com/Lambda-School-Labs?q=conference-contacts"
-              className="border-none text-sm flex items-center">
+        <Link href="https://github.com/Lambda-School-Labs?q=conference-contacts" className="border-none text-sm flex items-center">
           <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
             <path
               d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
@@ -179,16 +173,13 @@ const Root: React.FC = () => {
         </p>
       </Card>
       <Card className="bg-cool-gray-50 flex justify-around" roundBottom>
-        <Link href="https://showbunny.macjabeth.now.sh/"
-              className="border-none text-sm flex items-center">
+        <Link href="https://showbunny.macjabeth.now.sh/" className="border-none text-sm flex items-center">
           <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
-            <path
-              d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
           </svg>
           <span>Live Site</span>
         </Link>
-        <Link href="https://github.com/macjabeth/showbunny"
-              className="border-none text-sm flex items-center">
+        <Link href="https://github.com/macjabeth/showbunny" className="border-none text-sm flex items-center">
           <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
             <path
               d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
